@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "uuid": "00000000-0000-0000-0009-01f0af524f52",
+    "name": ".GalaxyHunter422",
+    "created": "2026-04-12 22:30:53 +0600",
+    "source": "Server",
+    "expires": "forever"
+  }
+]
