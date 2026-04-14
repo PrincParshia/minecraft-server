@@ -1,6 +1,19 @@
 [
   {
     "user": {
+      "type": "player",
+      "name": "PrincParshia",
+      "uniqueId": "f05d43d8-36d0-446e-8b30-3f4573269fff"
+    },
+    "time": 1776073642239,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/NITaKdUthE"
+    }
+  },
+  {
+    "user": {
       "type": "other",
       "name": "Server"
     },

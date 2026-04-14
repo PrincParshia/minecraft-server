@@ -1,5 +1,5 @@
-[22:30:26] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.6
-[22:30:26] [main/INFO]: Loading 94 mods:
+[12:03:06] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.6
+[12:03:06] [main/INFO]: Loading 94 mods:
 	- fabric-api 0.141.3+1.21.11
 	   |-- fabric-api-base 1.0.5+4ebb5c083e
 	   |-- fabric-api-lookup-api-v1 1.6.114+20dc27073e
@@ -112,145 +112,433 @@
 	- stackdeobfuscator 1.4.3+08e71cc
 	   |-- net_fabricmc_mapping-io 0.6.1
 	   \-- stackdeobfuscator-common 1.4.3+08e71cc
-[22:30:26] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/princ/Realms/minecraft-server/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[22:30:26] [main/INFO]: Compatibility level set to JAVA_21
-[22:30:26] [main/INFO]: Loaded configuration file for Lithium: 171 options available, 0 override(s) found.
-[22:30:27] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
-[22:30:33] [main/INFO]: Loading extensions...
-[22:30:33] [main/INFO]: Loaded 0 extension(s)
-[22:30:34] [main/INFO]: Creating asynchronous mapping cache executor...
-[22:30:34] [Mappings Cache Thread #1/INFO]: Verifying cache of yarn mappings...
-[22:30:34] [Mappings Cache Thread #1/INFO]: Latest build for yarn is already cached (10 hour(s) ago, refresh in 38 hour(s))
-[22:30:34] [Mappings Cache Thread #1/INFO]: Mappings for yarn build 1.21.11+build.4 are already downloaded
-[22:30:34] [Mappings Cache Thread #1/INFO]: Verified cache of yarn mappings (took 2ms)
-[22:30:34] [Mappings Cache Thread #1/INFO]: Parsing yarn mappings...
-[22:30:34] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[22:30:34] [Mappings Cache Thread #1/INFO]: Parsed yarn mappings (took 205ms)
-[22:30:34] [Mappings Cache Thread #1/INFO]: Caching yarn mappings...
-[22:30:34] [Mappings Cache Thread #1/INFO]: Cached yarn mappings (took 46ms)
-[22:30:34] [Mappings Cache Thread #1/INFO]: Cached mappings have been built (took 259ms)
-[22:30:34] [Mappings Cache Thread #1/INFO]:   Classes: 9378
-[22:30:34] [Mappings Cache Thread #1/INFO]:   Methods: 32001
-[22:30:34] [Mappings Cache Thread #1/INFO]:   Fields: 37328
-[22:30:34] [ForkJoinPool.commonPool-worker-1/INFO]: Shutting down asynchronous mapping cache executor...
-[22:30:34] [ForkJoinPool.commonPool-worker-1/INFO]: Injecting into root logger...
-[22:30:35] [main/INFO]: Loaded 1470 recipes
-[22:30:35] [main/INFO]: Loaded 1584 advancements
-[22:30:35] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.214 ms
-[22:30:35] [Server thread/INFO]: Starting background profiler...
-[22:30:36] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[22:30:36] [Server thread/INFO]: Loading properties
-[22:30:36] [Server thread/INFO]: Default game type: SURVIVAL
-[22:30:36] [Server thread/INFO]: Generating keypair
-[22:30:36] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:30:36] [Server thread/INFO]: Preparing level "world"
-[22:30:36] [Server thread/INFO]: Loading 0 persistent chunks...
-[22:30:36] [Server thread/INFO]: Preparing spawn area: 100%
-[22:30:36] [Server thread/INFO]: Time elapsed: 103 ms
-[22:30:36] [Server thread/INFO]: Done (0.497s)! For help, type "help"
-[22:30:36] [Server thread/INFO]: Took 54ms to boot Floodgate
-[22:30:38] [Server thread/INFO]: ******************************************
-[22:30:38] [Server thread/INFO]: 
-[22:30:38] [Server thread/INFO]: Loading Geyser version 2.9.5-b1109 (git-master-f6b0c78)
-[22:30:38] [Server thread/INFO]: 
-[22:30:38] [Server thread/INFO]: ******************************************
-[22:30:39] [GeyserServer-3-1/INFO]: Started Geyser on UDP port 25565
-[22:30:39] [Server thread/INFO]: Done (1.57s)! Run /geyser help for help!
-[22:30:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2948ms or 58 ticks behind
-[22:30:42] [Server thread/INFO]: That player does not exist
-[22:30:53] [Server thread/INFO]: Banned .GalaxyHunter422: Banned by an operator.
-[22:31:39] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[22:31:49] [GeyserServerChild-4-1/INFO]: Player connected with username GalaxyHunter422 (944)
-[22:31:49] [localSession-7-1/INFO]: GalaxyHunter422 (logged in as: GalaxyHunter422) has connected to the Java server
-[22:31:51] [pool-6-thread-1/INFO]: Floodgate player who is logged in as .GalaxyHunter422 00000000-0000-0000-0009-01f0af524f52 joined
-[22:31:51] [Server thread/INFO]: Disconnecting /100.84.225.26:0: You are banned from this server.
+[12:03:06] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/princ/Realms/minecraft-server/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[12:03:06] [main/INFO]: Compatibility level set to JAVA_21
+[12:03:06] [main/INFO]: Loaded configuration file for Lithium: 171 options available, 0 override(s) found.
+[12:03:07] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[12:03:16] [main/INFO]: Loading extensions...
+[12:03:16] [main/INFO]: Loaded 0 extension(s)
+[12:03:17] [main/INFO]: Creating asynchronous mapping cache executor...
+[12:03:17] [Mappings Cache Thread #1/INFO]: Verifying cache of yarn mappings...
+[12:03:17] [Mappings Cache Thread #1/INFO]: Latest build for yarn is already cached (24 hour(s) ago, refresh in 24 hour(s))
+[12:03:17] [Mappings Cache Thread #1/INFO]: Mappings for yarn build 1.21.11+build.4 are already downloaded
+[12:03:17] [Mappings Cache Thread #1/INFO]: Verified cache of yarn mappings (took 3ms)
+[12:03:17] [Mappings Cache Thread #1/INFO]: Parsing yarn mappings...
+[12:03:17] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[12:03:17] [Mappings Cache Thread #1/INFO]: Parsed yarn mappings (took 297ms)
+[12:03:17] [Mappings Cache Thread #1/INFO]: Caching yarn mappings...
+[12:03:17] [Mappings Cache Thread #1/INFO]: Cached yarn mappings (took 102ms)
+[12:03:17] [Mappings Cache Thread #1/INFO]: Cached mappings have been built (took 407ms)
+[12:03:17] [Mappings Cache Thread #1/INFO]:   Classes: 9378
+[12:03:17] [Mappings Cache Thread #1/INFO]:   Methods: 32001
+[12:03:17] [Mappings Cache Thread #1/INFO]:   Fields: 37328
+[12:03:17] [ForkJoinPool.commonPool-worker-1/INFO]: Shutting down asynchronous mapping cache executor...
+[12:03:17] [ForkJoinPool.commonPool-worker-1/INFO]: Injecting into root logger...
+[12:03:19] [main/INFO]: Loaded 1470 recipes
+[12:03:19] [main/INFO]: Loaded 1584 advancements
+[12:03:19] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.420 ms
+[12:03:19] [Server thread/INFO]: Starting background profiler...
+[12:03:20] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[12:03:20] [Server thread/INFO]: Loading properties
+[12:03:20] [Server thread/INFO]: Default game type: SURVIVAL
+[12:03:20] [Server thread/INFO]: Generating keypair
+[12:03:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:03:20] [Server thread/INFO]: Preparing level "world"
+[12:03:21] [Server thread/INFO]: Loading 0 persistent chunks...
+[12:03:21] [Server thread/INFO]: Preparing spawn area: 100%
+[12:03:21] [Server thread/INFO]: Time elapsed: 137 ms
+[12:03:21] [Server thread/INFO]: Done (0.669s)! For help, type "help"
+[12:03:21] [Server thread/INFO]: Took 97ms to boot Floodgate
+[12:03:23] [Server thread/INFO]: ******************************************
+[12:03:23] [Server thread/INFO]: 
+[12:03:23] [Server thread/INFO]: Loading Geyser version 2.9.5-b1109 (git-master-f6b0c78)
+[12:03:23] [Server thread/INFO]: 
+[12:03:23] [Server thread/INFO]: ******************************************
+[12:03:28] [GeyserServer-3-1/INFO]: Started Geyser on UDP port 25565
+[12:03:28] [Server thread/INFO]: Done (5.3s)! Run /geyser help for help!
+[12:03:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7176ms or 143 ticks behind
+[12:03:54] [User Authenticator #1/INFO]: UUID of player PrincParshia is f05d43d8-36d0-446e-8b30-3f4573269fff
+[12:03:55] [Server thread/INFO]: PrincParshia[/127.0.0.1:46122] logged in with entity id 52 at (948.5030886139034, 71.9375, 166.65142013886233)
+[12:03:55] [Server thread/INFO]: PrincParshia joined the game
+[12:04:06] [Server thread/INFO]: Villager class_1646['Mason'/23, l='ServerLevel[world]', x=931.58, y=69.94, z=173.72] died, message: 'Mason was slain by PrincParshia'
+[12:04:56] [Server thread/INFO]: Villager class_1646['Nitwit'/22, l='ServerLevel[world]', x=953.36, y=72.00, z=170.43] died, message: 'Nitwit was burned to a crisp while fighting PrincParshia'
+[12:07:21] [Server thread/INFO]: Villager class_1646['Leatherworker'/16, l='ServerLevel[world]', x=907.53, y=63.00, z=187.69] died, message: 'Leatherworker was slain by PrincParshia'
+[12:07:37] [Server thread/INFO]: PrincParshia lost connection: Disconnected
+[12:07:37] [Server thread/INFO]: PrincParshia left the game
+[12:08:37] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[12:15:51] [User Authenticator #2/INFO]: UUID of player PrincParshia is f05d43d8-36d0-446e-8b30-3f4573269fff
+[12:15:51] [Server thread/INFO]: PrincParshia[/127.0.0.1:46708] logged in with entity id 1157 at (871.0741987755965, 65.0, 176.3350677172313)
+[12:15:51] [Server thread/INFO]: PrincParshia joined the game
+[12:36:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=89, y=70, z=217} class_2338{x=87, y=70, z=216}
+[12:36:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=89, y=70, z=217} class_2338{x=87, y=70, z=216}
+[12:36:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=89, y=70, z=217} class_2338{x=87, y=70, z=216}
+[12:36:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=89, y=70, z=217} class_2338{x=87, y=70, z=216}
+[12:36:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=89, y=70, z=217} class_2338{x=87, y=70, z=216}
+[12:38:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=84, y=46, z=-19} class_2338{x=85, y=46, z=-19}
+[12:38:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=86, y=49, z=-20} class_2338{x=88, y=48, z=-19}
+[12:38:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=86, y=49, z=-20} class_2338{x=88, y=48, z=-19}
+[12:46:09] [Server thread/INFO]: PrincParshia has made the advancement [Oh Shiny]
+[12:46:48] [Server thread/INFO]: PrincParshia has made the advancement [Who is Cutting Onions?]
+[12:51:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=336, y=63, z=-30} class_2338{x=343, y=69, z=9}
+[12:51:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=336, y=63, z=-30} class_2338{x=343, y=69, z=9}
+[12:51:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=336, y=63, z=-30} class_2338{x=343, y=69, z=9}
+[12:51:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=336, y=63, z=-30} class_2338{x=343, y=69, z=9}
+[12:51:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=336, y=63, z=-30} class_2338{x=343, y=69, z=9}
+[12:51:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=336, y=63, z=-30} class_2338{x=343, y=69, z=9}
+[12:51:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=336, y=63, z=-30} class_2338{x=343, y=69, z=9}
+[12:51:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=336, y=63, z=-30} class_2338{x=343, y=69, z=9}
+[12:58:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=388, y=65, z=2} class_2338{x=443, y=40, z=141}
+[12:58:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=388, y=65, z=2} class_2338{x=443, y=40, z=141}
+[12:58:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=388, y=65, z=2} class_2338{x=443, y=40, z=141}
+[12:58:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=388, y=65, z=2} class_2338{x=443, y=40, z=141}
+[13:00:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=512, y=36, z=104} class_2338{x=513, y=36, z=103}
+[13:00:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=512, y=36, z=104} class_2338{x=513, y=36, z=103}
+[13:00:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=512, y=36, z=104} class_2338{x=513, y=36, z=103}
+[13:00:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=512, y=36, z=104} class_2338{x=513, y=36, z=103}
+[13:00:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=512, y=36, z=104} class_2338{x=513, y=36, z=103}
+[13:00:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=512, y=36, z=104} class_2338{x=513, y=36, z=103}
+[13:08:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=523, y=71, z=-71} class_2338{x=519, y=71, z=-71}
+[13:08:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=523, y=71, z=-71} class_2338{x=519, y=71, z=-71}
+[13:08:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=523, y=71, z=-71} class_2338{x=519, y=71, z=-71}
+[13:17:41] [Server thread/INFO]: PrincParshia has made the advancement [Those Were the Days]
+[13:22:50] [Server thread/INFO]: PrincParshia has made the advancement [War Pigs]
+[13:23:12] [Server thread/INFO]: PrincParshia has made the advancement [Hidden in the Depths]
+[13:31:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=555, y=56, z=-112} class_2338{x=555, y=55, z=-112}
+[13:31:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=555, y=56, z=-112} class_2338{x=555, y=55, z=-112}
+[13:31:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=555, y=56, z=-112} class_2338{x=555, y=55, z=-112}
+[13:31:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=555, y=56, z=-112} class_2338{x=555, y=55, z=-112}
+[13:31:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=555, y=56, z=-112} class_2338{x=555, y=55, z=-112}
+[13:31:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=555, y=56, z=-112} class_2338{x=555, y=55, z=-112}
+[13:31:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=555, y=56, z=-112} class_2338{x=555, y=55, z=-112}
+[13:31:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=555, y=56, z=-112} class_2338{x=558, y=48, z=-69}
+[13:31:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=555, y=56, z=-112} class_2338{x=558, y=48, z=-69}
+[13:31:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=555, y=56, z=-112} class_2338{x=558, y=48, z=-69}
+[13:31:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=555, y=56, z=-112} class_2338{x=558, y=48, z=-69}
+[13:31:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=555, y=56, z=-112} class_2338{x=558, y=48, z=-69}
+[13:31:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=555, y=56, z=-112} class_2338{x=558, y=48, z=-69}
+[13:31:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=555, y=56, z=-112} class_2338{x=558, y=48, z=-69}
+[13:31:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=555, y=56, z=-112} class_2338{x=558, y=48, z=-69}
+[13:31:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=555, y=56, z=-112} class_2338{x=558, y=50, z=-69}
+[13:36:39] [GeyserServerChild-4-1/INFO]: Player connected with username GalaxyHunter422 (944)
+[13:36:39] [localSession-7-1/INFO]: GalaxyHunter422 (logged in as: GalaxyHunter422) has connected to the Java server
+[13:36:40] [pool-6-thread-1/INFO]: Floodgate player who is logged in as .GalaxyHunter422 00000000-0000-0000-0009-01f0af524f52 joined
+[13:36:40] [Server thread/INFO]: Disconnecting /100.84.225.26:0: You are banned from this server.
 Reason: Banned by an operator.
-[22:31:51] [Geyser Fabric connection thread-6-2/INFO]: Floodgate player logged in as .GalaxyHunter422 disconnected
-[22:31:51] [Server thread/INFO]: /100.84.225.26:0 lost connection: You are banned from this server.
+[13:36:40] [Geyser Fabric connection thread-6-2/INFO]: Floodgate player logged in as .GalaxyHunter422 disconnected
+[13:36:40] [Server thread/INFO]: /100.84.225.26:0 lost connection: You are banned from this server.
 Reason: Banned by an operator.
-[22:31:51] [localSession-7-1/INFO]: GalaxyHunter422 has disconnected from the Java server because of You are banned from this server.
+[13:36:40] [localSession-7-1/INFO]: GalaxyHunter422 has disconnected from the Java server because of You are banned from this server.
 Reason: Banned by an operator.
-[22:31:51] [Server thread/WARN]: handleDisconnection() called twice
-[22:48:24] [User Authenticator #1/INFO]: UUID of player PrincParshia is f05d43d8-36d0-446e-8b30-3f4573269fff
-[22:48:26] [Server thread/INFO]: PrincParshia[/127.0.0.1:54784] logged in with entity id 24 at (197.30000001192093, 66.0, -1095.300000011921)
-[22:48:26] [Server thread/INFO]: PrincParshia joined the game
-[22:51:21] [Server thread/INFO]: PrincParshia has made the advancement [Hot Stuff]
-[22:59:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=190, y=62, z=-1117} class_2338{x=191, y=63, z=-1118}
-[23:06:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=320, y=88, z=-1139} class_2338{x=320, y=89, z=-1139}
-[23:06:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=320, y=90, z=-1138} class_2338{x=320, y=89, z=-1138}
-[23:06:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=320, y=90, z=-1138} class_2338{x=320, y=89, z=-1138}
-[23:06:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=320, y=90, z=-1138} class_2338{x=320, y=89, z=-1138}
-[23:08:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=360, y=56, z=-1039} class_2338{x=412, y=58, z=-883}
-[23:08:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=360, y=56, z=-1039} class_2338{x=412, y=58, z=-883}
-[23:08:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=360, y=56, z=-1039} class_2338{x=412, y=61, z=-876}
-[23:08:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=360, y=56, z=-1039} class_2338{x=412, y=61, z=-876}
-[23:08:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=360, y=56, z=-1039} class_2338{x=412, y=61, z=-876}
-[23:08:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=360, y=56, z=-1039} class_2338{x=412, y=61, z=-876}
-[23:08:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=360, y=56, z=-1039} class_2338{x=412, y=61, z=-876}
-[23:08:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=360, y=56, z=-1039} class_2338{x=412, y=61, z=-876}
-[23:08:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=412, y=60, z=-860} class_2338{x=412, y=59, z=-861}
-[23:08:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=412, y=60, z=-860} class_2338{x=412, y=59, z=-861}
-[23:16:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-122, y=43, z=-579} class_2338{x=-122, y=43, z=-578}
-[23:16:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-122, y=43, z=-579} class_2338{x=-122, y=43, z=-578}
-[23:16:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-122, y=43, z=-579} class_2338{x=-122, y=43, z=-578}
-[23:16:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-122, y=43, z=-579} class_2338{x=-122, y=43, z=-578}
-[23:18:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-135, y=37, z=-594} class_2338{x=-136, y=36, z=-594}
-[23:18:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-135, y=37, z=-594} class_2338{x=-136, y=36, z=-594}
-[23:19:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-114, y=36, z=-557} class_2338{x=-112, y=41, z=-559}
-[23:19:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-114, y=36, z=-557} class_2338{x=-112, y=41, z=-559}
-[23:23:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-102, y=39, z=-181} class_2338{x=-101, y=39, z=-182}
-[23:23:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-102, y=39, z=-181} class_2338{x=-101, y=39, z=-182}
-[23:23:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-102, y=39, z=-181} class_2338{x=-101, y=39, z=-182}
-[23:23:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-102, y=39, z=-181} class_2338{x=-101, y=39, z=-182}
-[23:23:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-103, y=40, z=-181} class_2338{x=-103, y=39, z=-181}
-[23:23:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-103, y=40, z=-181} class_2338{x=-103, y=39, z=-181}
-[23:23:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-103, y=40, z=-181} class_2338{x=-103, y=39, z=-181}
-[23:23:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-103, y=40, z=-181} class_2338{x=-103, y=39, z=-181}
-[23:23:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-103, y=40, z=-181} class_2338{x=-103, y=39, z=-181}
-[23:23:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-103, y=40, z=-181} class_2338{x=-103, y=39, z=-181}
-[23:23:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-103, y=40, z=-181} class_2338{x=-103, y=39, z=-181}
-[23:23:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-103, y=40, z=-181} class_2338{x=-103, y=39, z=-181}
-[23:23:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-146, y=41, z=-164} class_2338{x=-145, y=40, z=-164}
-[23:23:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-146, y=41, z=-164} class_2338{x=-145, y=40, z=-164}
-[23:26:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-197, y=42, z=-69} class_2338{x=-196, y=41, z=-69}
-[23:26:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-197, y=42, z=-69} class_2338{x=-196, y=41, z=-69}
-[23:28:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-191, y=50, z=90} class_2338{x=-191, y=50, z=91}
-[23:40:57] [spark-worker-pool-1-thread-1/INFO]: [⚡] Starting a new profiler, please wait...
-[23:40:57] [spark-worker-pool-1-thread-1/INFO]: [⚡] Profiler is now running! (async)
-[23:40:57] [spark-worker-pool-1-thread-1/INFO]: [⚡] It will run in the background until it is stopped by an admin.
-[23:40:57] [spark-worker-pool-1-thread-1/INFO]: [⚡] To stop the profiler and upload the results, run:
-[23:40:57] [spark-worker-pool-1-thread-1/INFO]: [⚡]   /spark profiler stop
-[23:40:57] [spark-worker-pool-1-thread-1/INFO]: [⚡] To view the profiler while it's running, run:
-[23:40:57] [spark-worker-pool-1-thread-1/INFO]: [⚡]   /spark profiler open
-[23:46:28] [Server thread/INFO]: PrincParshia lost connection: Disconnected
-[23:46:28] [Server thread/INFO]: PrincParshia left the game
-[23:46:41] [spark-worker-pool-1-thread-3/INFO]: [⚡] Stopping the profiler & uploading results, please wait...
-[23:46:42] [spark-worker-pool-1-thread-3/INFO]: If you see a warning above that says "WARNING: A Java agent has been loaded dynamically", it can be safely ignored.
-[23:46:42] [spark-worker-pool-1-thread-3/INFO]: See here for more information: https://spark.lucko.me/docs/misc/Java-agent-warning
-[23:46:46] [spark-worker-pool-1-thread-1/WARN]: A command execution has not completed after 5 seconds, it *might* be stuck. Trace: 
-  java.base/sun.nio.ch.Net.poll(Native Method)
-  java.base/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:190)
-  java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:279)
-  java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:302)
-  java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:354)
-  java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:798)
-  java.base/java.net.Socket$SocketInputStream.implRead(Socket.java:974)
-  java.base/java.net.Socket$SocketInputStream.read(Socket.java:964)
-  java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:489)
-  java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:483)
-  java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
-  java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1461)
-  java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1068)
-  java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:289)
-  java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:330)
-  java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:388)
-  java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:795)
-  java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:727)
-  java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1392)
-  java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1302)
-  java.base/sun.net.www.protocol.http.HttpURLConnection.getHeaderField(HttpURLConnection.java:2866)
-  java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getHeaderField(HttpsURLConnectionImpl.java:260)
-  knot//me.lucko.spark.common.util.BytebinClient.postContent(BytebinClient.java:72)
+[13:36:40] [Server thread/WARN]: handleDisconnection() called twice
+[13:37:39] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[13:37:39] [Server thread/INFO]: unban .GalaxyHunter422<--[HERE]
+[13:38:18] [Server thread/INFO]: [PrincParshia: Unbanned .GalaxyHunter422]
+[13:39:08] [GeyserServerChild-4-2/INFO]: Player connected with username GalaxyHunter422 (944)
+[13:39:08] [localSession-7-2/INFO]: GalaxyHunter422 (logged in as: GalaxyHunter422) has connected to the Java server
+[13:39:09] [pool-6-thread-2/INFO]: Floodgate player who is logged in as .GalaxyHunter422 00000000-0000-0000-0009-01f0af524f52 joined
+[13:39:10] [Server thread/INFO]: .GalaxyHunter422[/100.84.225.26:0] logged in with entity id 20579 at (-933.3502, 20.0, 353.63654)
+[13:39:10] [Server thread/INFO]: Floodgate player logged in as .GalaxyHunter422 joined (UUID: 00000000-0000-0000-0009-01f0af524f52)
+[13:39:10] [Server thread/INFO]: .GalaxyHunter422 joined the game
+[13:40:03] [Server thread/INFO]: <PrincParshia> oi
+[13:40:07] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> amare
+[13:40:08] [Server thread/INFO]: <PrincParshia> nether e dhuikka
+[13:40:11] [Server thread/INFO]: <PrincParshia> portal er cord dao
+[13:40:19] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> ghumao
+[13:40:24] [Server thread/INFO]: <PrincParshia> ami nether e
+[13:40:29] [Server thread/INFO]: <PrincParshia> portal er cord dao
+[13:40:30] [Server thread/INFO]: <PrincParshia> fast\
+[13:40:42] [Server thread/INFO]: <PrincParshia> naile abar ban
+[13:40:53] [Server thread/INFO]: <PrincParshia> fasstt
+[13:40:56] [Server thread/INFO]: <PrincParshia> asshole
+[13:40:57] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> -110
+[13:41:10] [Server thread/INFO]: <PrincParshia> nether e dhuko
+[13:41:12] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> 59 47
+[13:41:14] [Server thread/INFO]: <PrincParshia> thako
+[13:41:18] [Server thread/INFO]: <PrincParshia> oikhane thako
+[13:41:38] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> amare iron beshi koira dhao ar food
+[13:41:42] [Server thread/INFO]: <PrincParshia> na
+[13:41:48] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> keee
+[13:41:56] [Server thread/INFO]: <PrincParshia> tomare unban korsi oidai besi
+[13:42:01] [Server thread/INFO]: <PrincParshia> tar upore abar gali marso
+[13:42:06] [Server thread/INFO]: <PrincParshia> mone korsilam diamond dimu
+[13:42:09] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> alllahhh
+[13:42:15] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> ero. bondhu na paoa bhalo
+[13:42:55] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> aghe to erom chila na ehon erom ke
+[13:43:02] [Server thread/INFO]: <PrincParshia> bah bah
+[13:43:10] [Server thread/INFO]: <PrincParshia> ehon dosh amar
+[13:43:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-94, y=76, z=52} class_2338{x=-95, y=76, z=52}
+[13:43:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-94, y=76, z=52} class_2338{x=-95, y=76, z=52}
+[13:43:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-94, y=76, z=52} class_2338{x=-95, y=76, z=52}
+[13:43:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-94, y=76, z=52} class_2338{x=-95, y=76, z=52}
+[13:43:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-94, y=76, z=52} class_2338{x=-95, y=76, z=52}
+[13:43:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-94, y=76, z=52} class_2338{x=-95, y=76, z=52}
+[13:43:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-94, y=76, z=52} class_2338{x=-95, y=76, z=52}
+[13:43:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-98, y=73, z=52} class_2338{x=-97, y=73, z=52}
+[13:43:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-98, y=73, z=52} class_2338{x=-97, y=73, z=52}
+[13:43:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-99, y=72, z=52} class_2338{x=-100, y=72, z=52}
+[13:43:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-99, y=72, z=52} class_2338{x=-100, y=72, z=52}
+[13:43:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-99, y=72, z=52} class_2338{x=-100, y=72, z=52}
+[13:43:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-99, y=72, z=52} class_2338{x=-100, y=72, z=52}
+[13:43:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-101, y=70, z=52} class_2338{x=-100, y=72, z=52}
+[13:43:53] [Server thread/INFO]: <PrincParshia> pic koi pasio
+[13:43:57] [Server thread/INFO]: <PrincParshia> moira geso bolle
+[13:44:04] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> chilo
+[13:44:10] [Server thread/INFO]: <PrincParshia> mitthuk
+[13:44:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2158ms or 43 ticks behind
+[13:44:27] [Server thread/INFO]: <PrincParshia> ami end e gelam
+[13:44:34] [Server thread/INFO]: .GalaxyHunter422 was blown up by Creeper
+[13:44:43] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> bhaiii nooo
+[13:44:56] [Server thread/INFO]: .GalaxyHunter422 was shot by Skeleton
+[13:44:59] [Server thread/INFO]: <PrincParshia> hh
+[13:45:25] [Server thread/INFO]: .GalaxyHunter422 was doomed to fall
+[13:45:30] [Server thread/INFO]: <PrincParshia> heh
+[13:46:36] [GeyserServerChild-4-2/INFO]: GalaxyHunter422 has disconnected from the Java server because of Bedrock client disconnected
+[13:46:36] [Server thread/INFO]: .GalaxyHunter422 lost connection: Disconnected
+[13:46:36] [Geyser Fabric connection thread-6-3/INFO]: Floodgate player logged in as .GalaxyHunter422 disconnected
+[13:46:36] [Server thread/INFO]: .GalaxyHunter422 left the game
+[13:49:29] [Server thread/INFO]: PrincParshia lost connection: Disconnected
+[13:49:29] [Server thread/INFO]: PrincParshia left the game
+[13:50:29] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[14:35:16] [GeyserServerChild-4-3/INFO]: Player connected with username NAZAT1081 (944)
+[14:35:16] [localSession-7-3/INFO]: NAZAT1081 (logged in as: NAZAT1081) has connected to the Java server
+[14:35:16] [pool-6-thread-3/INFO]: Floodgate player who is logged in as .NAZAT1081 00000000-0000-0000-0009-01fc4ba2a7db joined
+[14:35:17] [Server thread/INFO]: .NAZAT1081[/100.66.11.26:0] logged in with entity id 25995 at (-898.20483, 66.0, 338.3000100119209)
+[14:35:17] [Server thread/INFO]: Floodgate player logged in as .NAZAT1081 joined (UUID: 00000000-0000-0000-0009-01fc4ba2a7db)
+[14:35:17] [Server thread/INFO]: .NAZAT1081 joined the game
+[14:52:52] [User Authenticator #3/INFO]: UUID of player PrincParshia is f05d43d8-36d0-446e-8b30-3f4573269fff
+[14:52:53] [GeyserServerChild-4-4/INFO]: Player connected with username Mahdeh266 (944)
+[14:52:53] [localSession-7-4/INFO]: Mahdeh266 (logged in as: Mahdeh266) has connected to the Java server
+[14:52:54] [pool-6-thread-4/INFO]: Floodgate player who is logged in as .Mahdeh266 00000000-0000-0000-0009-01f4ef85ce55 joined
+[14:52:54] [Server thread/INFO]: PrincParshia[/127.0.0.1:33168] logged in with entity id 28717 at (-40.99665435311705, 61.0, -20.274200601117542)
+[14:52:54] [Server thread/INFO]: PrincParshia joined the game
+[14:52:54] [Server thread/INFO]: .Mahdeh266[/100.77.253.114:0] logged in with entity id 28768 at (-925.9852, 59.0, 342.69193)
+[14:52:54] [Server thread/INFO]: Floodgate player logged in as .Mahdeh266 joined (UUID: 00000000-0000-0000-0009-01f4ef85ce55)
+[14:52:54] [Server thread/INFO]: .Mahdeh266 joined the game
+[14:54:03] [Server thread/INFO]: <PrincParshia> lag day?
+[14:54:07] [Server thread/INFO]: [Not Secure] <.Mahdeh266> na
+[14:54:13] [Server thread/INFO]: <PrincParshia> suno
+[14:54:18] [Server thread/INFO]: [Not Secure] <.NAZAT1081> na
+[14:54:19] [Server thread/INFO]: <PrincParshia> sobai ekloge village e dhuikko na
+[14:54:19] [Server thread/INFO]: [Not Secure] <.Mahdeh266> ki
+[14:54:33] [Server thread/INFO]: <PrincParshia> sobai ekloge vllager er kase gele overload hoya jay
+[14:54:36] [Server thread/INFO]: [Not Secure] <.Mahdeh266> amar,base,village a
+[14:54:43] [Server thread/INFO]: <PrincParshia> joto paro dure thaikko
+[14:55:31] [Server thread/INFO]: <PrincParshia> eee
+[14:55:36] [Server thread/INFO]: <PrincParshia> amar farm use korte mana korsi na
+[14:55:56] [Server thread/INFO]: [Not Secure] <.NAZAT1081> nisi trade korbo boila
+[14:56:06] [Server thread/INFO]: [Not Secure] <.Mahdeh266> oi nazat
+[14:56:17] [Server thread/INFO]: [Not Secure] <.Mahdeh266> gifat ase
+[14:56:35] [Server thread/INFO]: <PrincParshia> gunpowder ase
+[14:57:29] [Server thread/INFO]: <PrincParshia> oi
+[14:57:34] [Server thread/INFO]: <PrincParshia> gunpowder
+[14:57:44] [Server thread/INFO]: [Not Secure] <.Mahdeh266> 11ta Se
+[14:57:46] [Server thread/INFO]: [Not Secure] <.NAZAT1081> lag Dey
+[14:57:55] [Server thread/INFO]: <PrincParshia> koilam na village e ekloge aite na
+[14:58:04] [Server thread/INFO]: <PrincParshia> mana korle kota suno na
+[14:58:08] [Server thread/INFO]: <PrincParshia> abar chillaiba
+[15:01:24] [Server thread/INFO]: [Not Secure] <.Mahdeh266> sleep
+[15:01:56] [Server thread/INFO]: [Not Secure] <.NAZAT1081> ghuma
+[15:02:00] [Server thread/INFO]: <PrincParshia> bed nai
+[15:02:06] [Server thread/INFO]: [Not Secure] <.Mahdeh266> village ai
+[15:02:17] [GeyserServerChild-4-3/INFO]: NAZAT1081 has disconnected from the Java server because of Bedrock client timed out
+[15:02:17] [Geyser Fabric connection thread-6-4/INFO]: Floodgate player logged in as .NAZAT1081 disconnected
+[15:02:17] [Server thread/INFO]: .NAZAT1081 lost connection: Disconnected
+[15:02:17] [Server thread/INFO]: .NAZAT1081 left the game
+[15:02:28] [Server thread/INFO]: PrincParshia lost connection: Disconnected
+[15:02:28] [Server thread/INFO]: PrincParshia left the game
+[15:02:42] [User Authenticator #4/INFO]: UUID of player PrincParshia is f05d43d8-36d0-446e-8b30-3f4573269fff
+[15:02:42] [Server thread/INFO]: PrincParshia[/127.0.0.1:39668] logged in with entity id 32624 at (-685.1453106444181, -28.0, 514.1601147262062)
+[15:02:42] [Server thread/INFO]: PrincParshia joined the game
+[15:02:46] [Server thread/INFO]: <PrincParshia> hoise?
+[15:03:02] [Server thread/INFO]: [Not Secure] <.Mahdeh266> zoimbe
+[15:03:10] [Server thread/INFO]: PrincParshia lost connection: Disconnected
+[15:03:10] [Server thread/INFO]: PrincParshia left the game
+[15:03:19] [User Authenticator #5/INFO]: UUID of player PrincParshia is f05d43d8-36d0-446e-8b30-3f4573269fff
+[15:03:19] [Server thread/INFO]: PrincParshia[/127.0.0.1:50452] logged in with entity id 33039 at (-707.445478658879, -16.0, 465.0273403646966)
+[15:03:19] [Server thread/INFO]: PrincParshia joined the game
+[15:03:22] [Server thread/INFO]: <PrincParshia> ??
+[15:03:26] [Server thread/INFO]: [Not Secure] <.Mahdeh266> hoise
+[15:04:41] [localSession-7-5/INFO]: NAZAT1081 (logged in as: NAZAT1081) has connected to the Java server
+[15:04:41] [GeyserServerChild-4-5/INFO]: Player connected with username NAZAT1081 (944)
+[15:04:42] [pool-6-thread-5/INFO]: Floodgate player who is logged in as .NAZAT1081 00000000-0000-0000-0009-01fc4ba2a7db joined
+[15:04:42] [Server thread/INFO]: .NAZAT1081[/100.66.11.26:0] logged in with entity id 34023 at (-896.5, 66.0, 340.5)
+[15:04:42] [Server thread/INFO]: Floodgate player logged in as .NAZAT1081 joined (UUID: 00000000-0000-0000-0009-01fc4ba2a7db)
+[15:04:42] [Server thread/INFO]: .NAZAT1081 joined the game
+[15:05:12] [Geyser Fabric connection thread-6-6/INFO]: Floodgate player logged in as .NAZAT1081 disconnected
+[15:05:12] [GeyserServerChild-4-5/INFO]: NAZAT1081 has disconnected from the Java server because of Bedrock client timed out
+[15:05:12] [Server thread/INFO]: .NAZAT1081 lost connection: Disconnected
+[15:05:12] [Server thread/INFO]: .NAZAT1081 left the game
+[15:07:16] [Server thread/INFO]: <PrincParshia> mob spawner
+[15:07:34] [GeyserServerChild-4-6/INFO]: Player connected with username NAZAT1081 (944)
+[15:07:34] [localSession-7-6/INFO]: NAZAT1081 (logged in as: NAZAT1081) has connected to the Java server
+[15:07:35] [pool-6-thread-6/INFO]: Floodgate player who is logged in as .NAZAT1081 00000000-0000-0000-0009-01fc4ba2a7db joined
+[15:07:35] [Server thread/INFO]: .NAZAT1081[/100.66.11.26:0] logged in with entity id 36067 at (-896.5, 66.0, 340.5)
+[15:07:35] [Server thread/INFO]: Floodgate player logged in as .NAZAT1081 joined (UUID: 00000000-0000-0000-0009-01fc4ba2a7db)
+[15:07:35] [Server thread/INFO]: .NAZAT1081 joined the game
+[15:11:04] [Server thread/INFO]: .Mahdeh266 drowned
+[15:11:10] [Server thread/INFO]: <PrincParshia> ???
+[15:11:32] [Server thread/INFO]: [Not Secure] <.Mahdeh266> riahb shiparc ar kasexja
+[15:11:44] [Server thread/INFO]: <PrincParshia> ?
+[15:12:05] [Server thread/INFO]: [Not Secure] <.Mahdeh266> 64 daimond ase
+[15:12:10] [Server thread/INFO]: <PrincParshia> ki kortam
+[15:12:41] [Server thread/INFO]: [Not Secure] <.NAZAT1081> .rihab
+[15:12:43] [Server thread/INFO]: <PrincParshia> ?
+[15:13:05] [Server thread/INFO]: [Not Secure] <.NAZAT1081> tui na amare diamond dibi kois
+[15:13:08] [Server thread/INFO]: <PrincParshia> na
+[15:13:30] [GeyserServerChild-4-6/INFO]: NAZAT1081 has disconnected from the Java server because of Bedrock client timed out
+[15:13:30] [Geyser Fabric connection thread-6-7/INFO]: Floodgate player logged in as .NAZAT1081 disconnected
+[15:13:30] [Server thread/INFO]: .NAZAT1081 lost connection: Disconnected
+[15:13:30] [Server thread/INFO]: .NAZAT1081 left the game
+[15:13:39] [Server thread/INFO]: PrincParshia lost connection: Disconnected
+[15:13:39] [Server thread/INFO]: PrincParshia left the game
+[15:13:48] [Geyser Fabric connection thread-6-5/INFO]: Floodgate player logged in as .Mahdeh266 disconnected
+[15:13:48] [GeyserServerChild-4-4/INFO]: Mahdeh266 has disconnected from the Java server because of Bedrock client disconnected
+[15:13:48] [Server thread/INFO]: .Mahdeh266 lost connection: Disconnected
+[15:13:48] [Server thread/INFO]: .Mahdeh266 left the game
+[15:14:48] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[15:15:03] [User Authenticator #6/INFO]: UUID of player PrincParshia is f05d43d8-36d0-446e-8b30-3f4573269fff
+[15:15:03] [Server thread/INFO]: PrincParshia[/127.0.0.1:57266] logged in with entity id 40550 at (-894.5293717996066, 67.0, 347.7348144145496)
+[15:15:03] [Server thread/INFO]: PrincParshia joined the game
+[15:15:45] [GeyserServerChild-4-7/INFO]: Player connected with username NAZAT1081 (944)
+[15:15:45] [localSession-7-7/INFO]: NAZAT1081 (logged in as: NAZAT1081) has connected to the Java server
+[15:15:45] [pool-6-thread-7/INFO]: Floodgate player who is logged in as .NAZAT1081 00000000-0000-0000-0009-01fc4ba2a7db joined
+[15:15:45] [Server thread/INFO]: .NAZAT1081[/100.66.11.26:0] logged in with entity id 40850 at (-890.2832, 68.00134, 355.36142)
+[15:15:45] [Server thread/INFO]: Floodgate player logged in as .NAZAT1081 joined (UUID: 00000000-0000-0000-0009-01fc4ba2a7db)
+[15:15:45] [Server thread/INFO]: .NAZAT1081 joined the game
+[15:20:38] [GeyserServerChild-4-8/INFO]: Player connected with username GalaxyHunter422 (944)
+[15:20:38] [localSession-7-8/INFO]: GalaxyHunter422 (logged in as: GalaxyHunter422) has connected to the Java server
+[15:20:38] [pool-6-thread-8/INFO]: Floodgate player who is logged in as .GalaxyHunter422 00000000-0000-0000-0009-01f0af524f52 joined
+[15:20:39] [Server thread/INFO]: .GalaxyHunter422[/100.84.225.26:0] logged in with entity id 42067 at (-107.30001001192093, 56.0, 50.496334)
+[15:20:39] [Server thread/INFO]: Floodgate player logged in as .GalaxyHunter422 joined (UUID: 00000000-0000-0000-0009-01f0af524f52)
+[15:20:39] [Server thread/INFO]: .GalaxyHunter422 joined the game
+[15:21:36] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> iron dao
+[15:21:39] [Server thread/INFO]: <PrincParshia> nai
+[15:21:44] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> bhai
+[15:21:51] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> tumar lohe ami ar nai
+[15:21:52] [Server thread/INFO]: <PrincParshia> ??
+[15:21:56] [Server thread/INFO]: <PrincParshia> diamond ase
+[15:22:22] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> eto kharap teammet amar dhorkhar nai
+[15:22:28] [Server thread/INFO]: <PrincParshia> ami ekla
+[15:22:30] [Server thread/INFO]: <PrincParshia> tomra sob
+[15:22:34] [Server thread/INFO]: <PrincParshia> teammate kamne
+[15:22:47] [GeyserServerChild-4-7/INFO]: NAZAT1081 has disconnected from the Java server because of Bedrock client timed out
+[15:22:47] [Geyser Fabric connection thread-6-8/INFO]: Floodgate player logged in as .NAZAT1081 disconnected
+[15:22:47] [Server thread/INFO]: .NAZAT1081 lost connection: Disconnected
+[15:22:47] [Server thread/INFO]: .NAZAT1081 left the game
+[15:24:58] [GeyserServerChild-4-9/INFO]: Player connected with username NAZAT1081 (944)
+[15:24:58] [localSession-7-9/INFO]: NAZAT1081 (logged in as: NAZAT1081) has connected to the Java server
+[15:24:58] [pool-6-thread-9/INFO]: Floodgate player who is logged in as .NAZAT1081 00000000-0000-0000-0009-01fc4ba2a7db joined
+[15:24:59] [Server thread/INFO]: .NAZAT1081[/100.66.11.26:0] logged in with entity id 44066 at (-412.98105, 72.0, 98.95282)
+[15:24:59] [Server thread/INFO]: Floodgate player logged in as .NAZAT1081 joined (UUID: 00000000-0000-0000-0009-01fc4ba2a7db)
+[15:24:59] [Server thread/INFO]: .NAZAT1081 joined the game
+[15:25:10] [GeyserServerChild-4-8/INFO]: GalaxyHunter422 has disconnected from the Java server because of Bedrock client disconnected
+[15:25:10] [Geyser Fabric connection thread-6-9/INFO]: Floodgate player logged in as .GalaxyHunter422 disconnected
+[15:25:10] [Server thread/INFO]: .GalaxyHunter422 lost connection: Disconnected
+[15:25:10] [Server thread/INFO]: .GalaxyHunter422 left the game
+[15:25:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2140ms or 42 ticks behind
+[15:26:34] [Server thread/INFO]: <PrincParshia> ghumao
+[15:27:02] [GeyserServerChild-4-10/INFO]: Player connected with username GalaxyHunter422 (944)
+[15:27:02] [localSession-7-10/INFO]: GalaxyHunter422 (logged in as: GalaxyHunter422) has connected to the Java server
+[15:27:03] [pool-6-thread-10/INFO]: Floodgate player who is logged in as .GalaxyHunter422 00000000-0000-0000-0009-01f0af524f52 joined
+[15:27:03] [Server thread/INFO]: .GalaxyHunter422[/100.84.225.26:0] logged in with entity id 45020 at (-896.0081, 67.0, 369.17526)
+[15:27:03] [Server thread/INFO]: Floodgate player logged in as .GalaxyHunter422 joined (UUID: 00000000-0000-0000-0009-01f0af524f52)
+[15:27:03] [Server thread/INFO]: .GalaxyHunter422 joined the game
+[15:31:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-857, y=65, z=286} class_2338{x=-857, y=68, z=291}
+[15:31:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-857, y=65, z=286} class_2338{x=-857, y=68, z=291}
+[15:32:06] [GeyserServerChild-4-11/INFO]: Player connected with username Mahdeh266 (944)
+[15:32:06] [localSession-7-11/INFO]: Mahdeh266 (logged in as: Mahdeh266) has connected to the Java server
+[15:32:06] [pool-6-thread-11/INFO]: Floodgate player who is logged in as .Mahdeh266 00000000-0000-0000-0009-01f4ef85ce55 joined
+[15:32:07] [Server thread/INFO]: .Mahdeh266[/100.77.253.114:0] logged in with entity id 46743 at (-142.26587, 72.0, 319.05856)
+[15:32:07] [Server thread/INFO]: Floodgate player logged in as .Mahdeh266 joined (UUID: 00000000-0000-0000-0009-01f4ef85ce55)
+[15:32:07] [Server thread/INFO]: .Mahdeh266 joined the game
+[15:34:37] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> hi
+[15:35:20] [Server thread/INFO]: PrincParshia lost connection: Disconnected
+[15:35:20] [Server thread/INFO]: PrincParshia left the game
+[15:36:26] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> yo
+[15:36:28] [Server thread/INFO]: [Not Secure] <.Mahdeh266> help
+[15:36:35] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> ki
+[15:36:41] [Server thread/INFO]: [Not Secure] <.Mahdeh266> tui enchament paisos kemen
+[15:36:49] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> agaher chilo
+[15:37:04] [Server thread/INFO]: [Not Secure] <.Mahdeh266> give me
+[15:37:04] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> ami dimond min korte jamu
+[15:37:18] [Server thread/INFO]: [Not Secure] <.Mahdeh266> tor kase iron picaxe ase
+[15:37:26] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> no
+[15:37:47] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> golem re maira ne
+[15:37:52] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> ghumaaa
+[15:39:39] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> mehedi sedd place
+[15:39:40] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> kor
+[15:39:48] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> ar cow sheep bread kora
+[15:40:12] [User Authenticator #7/INFO]: UUID of player PrincParshia is f05d43d8-36d0-446e-8b30-3f4573269fff
+[15:40:12] [Server thread/INFO]: PrincParshia[/127.0.0.1:60064] logged in with entity id 50866 at (-857.0528618012213, 65.0, 287.97933817510796)
+[15:40:13] [Server thread/INFO]: PrincParshia joined the game
+[15:40:16] [Server thread/INFO]: <PrincParshia> oi mendi
+[15:40:22] [Server thread/INFO]: [Not Secure] <.Mahdeh266> i lost my dionmond armor
+[15:40:31] [Server thread/INFO]: <PrincParshia> tumi khali harao
+[15:40:58] [Server thread/INFO]: PrincParshia lost connection: Disconnected
+[15:40:58] [Server thread/INFO]: PrincParshia left the game
+[15:41:33] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> ami ghelam adventure korte dhure
+[15:42:14] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> rihaber moto manush jate allah na dhei
+[15:42:18] [User Authenticator #8/INFO]: UUID of player PrincParshia is f05d43d8-36d0-446e-8b30-3f4573269fff
+[15:42:19] [Server thread/INFO]: PrincParshia[/127.0.0.1:49836] logged in with entity id 51764 at (-856.5833502684076, 66.0, 284.50304996038807)
+[15:42:19] [Server thread/INFO]: PrincParshia joined the game
+[15:42:27] [Server thread/INFO]: <PrincParshia> ammu ektu pore pore ahe ke
+[15:42:30] [Server thread/INFO]: <PrincParshia> bujlam na
+[15:42:51] [Server thread/WARN]: .GalaxyHunter422 moved too quickly! -7.425199999999904,1.4951899999999938,-6.69896
+[15:42:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[15:43:00] [spark-worker-pool-1-thread-1/INFO]: [⚡] Starting a new profiler, please wait...
+[15:43:00] [spark-worker-pool-1-thread-1/INFO]: [⚡] Profiler is now running! (async)
+[15:43:00] [spark-worker-pool-1-thread-1/INFO]: [⚡] It will run in the background until it is stopped by an admin.
+[15:43:00] [spark-worker-pool-1-thread-1/INFO]: [⚡] To stop the profiler and upload the results, run:
+[15:43:00] [spark-worker-pool-1-thread-1/INFO]: [⚡]   /spark profiler stop
+[15:43:00] [spark-worker-pool-1-thread-1/INFO]: [⚡] To view the profiler while it's running, run:
+[15:43:00] [spark-worker-pool-1-thread-1/INFO]: [⚡]   /spark profiler open
+[15:43:03] [Server thread/INFO]: <PrincParshia> lag day?
+[15:43:13] [Server thread/INFO]: [Not Secure] <.Mahdeh266> hoa
+[15:43:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
+[15:43:55] [Server thread/INFO]: .GalaxyHunter422 has made the advancement [Ice Bucket Challenge]
+[15:44:36] [Server thread/INFO]: PrincParshia lost connection: Disconnected
+[15:44:36] [Server thread/INFO]: PrincParshia left the game
+[15:46:46] [Server thread/WARN]: .GalaxyHunter422 moved wrongly!
+[15:46:50] [Server thread/INFO]: .Mahdeh266 has made the advancement [The Parrots and the Bats]
+[15:46:53] [User Authenticator #9/INFO]: UUID of player PrincParshia is f05d43d8-36d0-446e-8b30-3f4573269fff
+[15:46:53] [Server thread/INFO]: PrincParshia[/127.0.0.1:36876] logged in with entity id 55097 at (-891.4446604999341, 66.0, 350.5376158161623)
+[15:46:53] [Server thread/INFO]: PrincParshia joined the game
+[15:47:09] [Server thread/INFO]: <PrincParshia> tomar eto diamond
+[15:47:14] [spark-worker-pool-1-thread-3/INFO]: [⚡] Stopping the profiler & uploading results, please wait...
+[15:47:16] [spark-worker-pool-1-thread-3/INFO]: If you see a warning above that says "WARNING: A Java agent has been loaded dynamically", it can be safely ignored.
+[15:47:16] [spark-worker-pool-1-thread-3/INFO]: See here for more information: https://spark.lucko.me/docs/misc/Java-agent-warning
+[15:47:19] [spark-worker-pool-1-thread-1/WARN]: A command execution has not completed after 5 seconds, it *might* be stuck. Trace: 
+  java.base/java.util.zip.Deflater.deflateBytesBytes(Native Method)
+  java.base/java.util.zip.Deflater.deflate(Deflater.java:569)
+  java.base/java.util.zip.Deflater.deflate(Deflater.java:446)
+  java.base/java.util.zip.DeflaterOutputStream.deflate(DeflaterOutputStream.java:340)
+  java.base/java.util.zip.DeflaterOutputStream.write(DeflaterOutputStream.java:273)
+  java.base/java.util.zip.GZIPOutputStream.write(GZIPOutputStream.java:152)
+  knot//me.lucko.spark.lib.protobuf.CodedOutputStream$OutputStreamEncoder.doFlush(CodedOutputStream.java:3069)
+  knot//me.lucko.spark.lib.protobuf.CodedOutputStream$OutputStreamEncoder.writeStringNoTag(CodedOutputStream.java:2939)
+  knot//me.lucko.spark.lib.protobuf.CodedOutputStream$OutputStreamEncoder.writeString(CodedOutputStream.java:2776)
+  knot//me.lucko.spark.lib.protobuf.CodedOutputStreamWriter.writeString(CodedOutputStreamWriter.java:102)
+  knot//me.lucko.spark.lib.protobuf.MessageSchema.writeString(MessageSchema.java:4598)
+  knot//me.lucko.spark.lib.protobuf.MessageSchema.writeFieldsInAscendingOrder(MessageSchema.java:2179)
+  knot//me.lucko.spark.lib.protobuf.MessageSchema.writeTo(MessageSchema.java:2075)
+  knot//me.lucko.spark.lib.protobuf.CodedOutputStream$OutputStreamEncoder.writeMessageNoTag(CodedOutputStream.java:2868)
+  knot//me.lucko.spark.lib.protobuf.CodedOutputStream$OutputStreamEncoder.writeMessage(CodedOutputStream.java:2838)
+  knot//me.lucko.spark.lib.protobuf.CodedOutputStreamWriter.writeMessage(CodedOutputStreamWriter.java:132)
+  knot//me.lucko.spark.lib.protobuf.CodedOutputStreamWriter.writeMessageList(CodedOutputStreamWriter.java:988)
+  knot//me.lucko.spark.lib.protobuf.SchemaUtil.writeMessageList(SchemaUtil.java:283)
+  knot//me.lucko.spark.lib.protobuf.MessageSchema.writeFieldsInAscendingOrder(MessageSchema.java:2275)
+  knot//me.lucko.spark.lib.protobuf.MessageSchema.writeTo(MessageSchema.java:2075)
+  knot//me.lucko.spark.lib.protobuf.CodedOutputStream$OutputStreamEncoder.writeMessageNoTag(CodedOutputStream.java:2868)
+  knot//me.lucko.spark.lib.protobuf.CodedOutputStream$OutputStreamEncoder.writeMessage(CodedOutputStream.java:2838)
+  knot//me.lucko.spark.lib.protobuf.CodedOutputStreamWriter.writeMessage(CodedOutputStreamWriter.java:132)
+  knot//me.lucko.spark.lib.protobuf.CodedOutputStreamWriter.writeMessageList(CodedOutputStreamWriter.java:988)
+  knot//me.lucko.spark.lib.protobuf.SchemaUtil.writeMessageList(SchemaUtil.java:283)
+  knot//me.lucko.spark.lib.protobuf.MessageSchema.writeFieldsInAscendingOrder(MessageSchema.java:2275)
+  knot//me.lucko.spark.lib.protobuf.MessageSchema.writeTo(MessageSchema.java:2075)
+  knot//me.lucko.spark.lib.protobuf.GeneratedMessageLite.writeTo(GeneratedMessageLite.java:302)
+  knot//me.lucko.spark.lib.protobuf.AbstractMessageLite.writeTo(AbstractMessageLite.java:61)
+  knot//me.lucko.spark.common.util.BytebinClient.lambda$postContent$0(BytebinClient.java:86)
+  knot//me.lucko.spark.common.util.BytebinClient.postContent(BytebinClient.java:69)
   knot//me.lucko.spark.common.util.BytebinClient.postContent(BytebinClient.java:84)
   knot//me.lucko.spark.common.util.BytebinClient.postContent(BytebinClient.java:94)
   knot//me.lucko.spark.common.command.modules.SamplerModule.handleUpload(SamplerModule.java:427)
@@ -264,29 +552,323 @@ Reason: Banned by an operator.
   java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
   java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
   java.base/java.lang.Thread.run(Thread.java:1474)
-[23:46:46] [spark-worker-pool-1-thread-1/WARN]: If the command subsequently completes without any errors, this warning should be ignored. :)
-[23:46:48] [spark-worker-pool-1-thread-3/INFO]: [⚡] Profiler stopped & upload complete!
-[23:46:48] [spark-worker-pool-1-thread-3/INFO]: https://spark.lucko.me/ShnAFPqZO5
-[23:46:48] [spark-worker-pool-1-thread-3/INFO]: [⚡] Restarted the background profiler. (If you don't want this to happen, run: /spark profiler cancel)
-[23:47:28] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[23:48:30] [Server thread/INFO]: Stopping the server
-[23:48:30] [Server thread/INFO]: Shutting down Geyser.
-[23:48:30] [Server thread/INFO]: Geyser shutdown successfully.
-[23:48:32] [Server thread/INFO]: Stopping server
-[23:48:32] [Server thread/INFO]: Saving players
-[23:48:32] [Server thread/INFO]: Saving worlds
-[23:48:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:48:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23:48:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23:48:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:48:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:48:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:48:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:48:35] [spark-monitoring-2-thread-1/INFO]: [STDERR]: Uncaught exception thrown in thread spark-monitoring-2-thread-1
-[23:48:35] [spark-monitoring-2-thread-1/INFO]: [STDERR]: java.util.concurrent.CancellationException
-[23:48:35] [spark-monitoring-2-thread-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:123)
-[23:48:35] [spark-monitoring-2-thread-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:193)
-[23:48:35] [spark-monitoring-2-thread-1/INFO]: [STDERR]: 	at knot//me.lucko.spark.common.util.SparkScheduledThreadPoolExecutor.afterExecute(SparkScheduledThreadPoolExecutor.java:48)
-[23:48:35] [spark-monitoring-2-thread-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1091)
-[23:48:35] [spark-monitoring-2-thread-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-[23:48:35] [spark-monitoring-2-thread-1/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:1474)
+[15:47:19] [spark-worker-pool-1-thread-1/WARN]: If the command subsequently completes without any errors, this warning should be ignored. :)
+[15:47:21] [Server thread/WARN]: .GalaxyHunter422 moved too quickly! 9.066000000000031,1.9619100183487035,4.249790000000019
+[15:47:22] [spark-worker-pool-1-thread-3/INFO]: [⚡] Profiler stopped & upload complete!
+[15:47:22] [spark-worker-pool-1-thread-3/INFO]: https://spark.lucko.me/NITaKdUthE
+[15:47:22] [spark-worker-pool-1-thread-3/INFO]: [⚡] Restarted the background profiler. (If you don't want this to happen, run: /spark profiler cancel)
+[15:47:23] [Server thread/INFO]: [Not Secure] <.Mahdeh266> somossa
+[15:47:29] [Server thread/INFO]: <PrincParshia> ?
+[15:47:38] [Server thread/INFO]: [Not Secure] <.Mahdeh266> thus is my last batch
+[15:48:10] [Geyser Fabric connection thread-6-12/INFO]: Floodgate player logged in as .Mahdeh266 disconnected
+[15:48:10] [GeyserServerChild-4-11/INFO]: Mahdeh266 has disconnected from the Java server because of Bedrock client disconnected
+[15:48:10] [Server thread/INFO]: .Mahdeh266 lost connection: Disconnected
+[15:48:10] [Server thread/INFO]: .Mahdeh266 left the game
+[15:49:14] [Server thread/INFO]: <PrincParshia> nazat
+[15:49:21] [Server thread/INFO]: <PrincParshia> amare koyda fish aina dao
+[15:49:24] [Server thread/INFO]: <PrincParshia> 5 ta diamond dimu
+[15:50:32] [GeyserServerChild-4-10/INFO]: GalaxyHunter422 has disconnected from the Java server because of Bedrock client disconnected
+[15:50:32] [Geyser Fabric connection thread-6-11/INFO]: Floodgate player logged in as .GalaxyHunter422 disconnected
+[15:50:32] [Server thread/INFO]: .GalaxyHunter422 lost connection: Disconnected
+[15:50:32] [Server thread/INFO]: .GalaxyHunter422 left the game
+[15:51:36] [GeyserServerChild-4-12/INFO]: Player connected with username GalaxyHunter422 (944)
+[15:51:36] [localSession-7-12/INFO]: GalaxyHunter422 (logged in as: GalaxyHunter422) has connected to the Java server
+[15:51:37] [pool-6-thread-12/INFO]: Floodgate player who is logged in as .GalaxyHunter422 00000000-0000-0000-0009-01f0af524f52 joined
+[15:51:37] [Server thread/INFO]: .GalaxyHunter422[/100.84.225.26:0] logged in with entity id 57447 at (-892.23, 66.5625, 337.34128)
+[15:51:37] [Server thread/INFO]: Floodgate player logged in as .GalaxyHunter422 joined (UUID: 00000000-0000-0000-0009-01f0af524f52)
+[15:51:37] [Server thread/INFO]: .GalaxyHunter422 joined the game
+[15:51:49] [Server thread/INFO]: <PrincParshia> oi
+[15:51:52] [Server thread/INFO]: <PrincParshia> nazat
+[15:52:03] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> ghumaaa
+[15:52:12] [Geyser Fabric connection thread-6-10/INFO]: Floodgate player logged in as .NAZAT1081 disconnected
+[15:52:12] [Server thread/INFO]: [PrincParshia: Kicked .NAZAT1081: Kicked by an operator]
+[15:52:12] [localSession-7-9/INFO]: NAZAT1081 has disconnected from the Java server because of Kicked by an operator
+[15:52:12] [Server thread/INFO]: .NAZAT1081 lost connection: Kicked by an operator
+[15:52:12] [Server thread/INFO]: .NAZAT1081 left the game
+[15:52:17] [Server thread/INFO]: <PrincParshia> ghumao
+[15:53:30] [GeyserServerChild-4-13/INFO]: Player connected with username NAZAT1081 (944)
+[15:53:30] [localSession-7-13/INFO]: NAZAT1081 (logged in as: NAZAT1081) has connected to the Java server
+[15:53:30] [pool-6-thread-13/INFO]: Floodgate player who is logged in as .NAZAT1081 00000000-0000-0000-0009-01fc4ba2a7db joined
+[15:53:31] [Server thread/INFO]: .NAZAT1081[/100.66.11.26:0] logged in with entity id 58097 at (-54.5, 23.5625, 34.5)
+[15:53:31] [Server thread/INFO]: Floodgate player logged in as .NAZAT1081 joined (UUID: 00000000-0000-0000-0009-01fc4ba2a7db)
+[15:53:31] [Server thread/INFO]: .NAZAT1081 joined the game
+[15:53:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[15:53:53] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> ami dure jai adventure korte
+[15:54:02] [Server thread/INFO]: <PrincParshia> ami dragon marte jai
+[15:55:31] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> lagg day
+[15:55:39] [Server thread/INFO]: <PrincParshia> ki kortam
+[15:56:12] [Server thread/INFO]: <PrincParshia> furnace er bhitre 5 ta diamond rakhsi
+[15:56:17] [Server thread/INFO]: <PrincParshia> jar bhallage loya loyo
+[15:56:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[15:56:46] [Server thread/INFO]: [Not Secure] <.NAZAT1081> rihab amare de plz
+[15:56:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4499ms or 89 ticks behind
+[15:57:02] [Server thread/INFO]: <PrincParshia> koilam to jar bhallage loya loyo
+[15:57:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4276ms or 85 ticks behind
+[15:57:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14209ms or 284 ticks behind
+[15:57:38] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> bahh mangrove forest
+[15:57:39] [Server thread/INFO]: <PrincParshia> server overload hoya gese
+[15:58:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12932ms or 258 ticks behind
+[15:58:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7087ms or 141 ticks behind
+[15:58:27] [Server thread/INFO]: <PrincParshia> lag day?
+[15:58:32] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> hooo
+[15:58:36] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> onek
+[15:58:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[15:58:52] [Server thread/INFO]: <PrincParshia> amar ram 95% khayalaise
+[15:58:59] [Server thread/INFO]: <PrincParshia> amar pc ei lag martase
+[15:59:03] [Server thread/INFO]: <PrincParshia> khelte partasina
+[15:59:16] [GeyserServerChild-4-12/INFO]: GalaxyHunter422 has disconnected from the Java server because of Bedrock client timed out
+[15:59:16] [GeyserServerChild-4-13/INFO]: NAZAT1081 has disconnected from the Java server because of Bedrock client timed out
+[15:59:16] [Server thread/INFO]: .GalaxyHunter422 lost connection: Disconnected
+[15:59:16] [Geyser Fabric connection thread-6-14/INFO]: Floodgate player logged in as .NAZAT1081 disconnected
+[15:59:16] [Geyser Fabric connection thread-6-13/INFO]: Floodgate player logged in as .GalaxyHunter422 disconnected
+[15:59:16] [Server thread/INFO]: .GalaxyHunter422 left the game
+[15:59:16] [Server thread/INFO]: .NAZAT1081 lost connection: Disconnected
+[15:59:16] [Server thread/INFO]: .NAZAT1081 left the game
+[16:00:08] [GeyserServerChild-4-15/INFO]: Player connected with username GalaxyHunter422 (944)
+[16:00:08] [localSession-7-14/INFO]: GalaxyHunter422 (logged in as: GalaxyHunter422) has connected to the Java server
+[16:00:08] [pool-6-thread-14/INFO]: Floodgate player who is logged in as .GalaxyHunter422 00000000-0000-0000-0009-01f0af524f52 joined
+[16:00:09] [Server thread/INFO]: .GalaxyHunter422[/100.84.225.26:0] logged in with entity id 62081 at (-1688.7495, 83.00134, 310.70963)
+[16:00:09] [Server thread/INFO]: Floodgate player logged in as .GalaxyHunter422 joined (UUID: 00000000-0000-0000-0009-01f0af524f52)
+[16:00:09] [Server thread/INFO]: .GalaxyHunter422 joined the game
+[16:00:12] [GeyserServerChild-4-14/INFO]: Player connected with username NAZAT1081 (944)
+[16:00:12] [localSession-7-15/INFO]: NAZAT1081 (logged in as: NAZAT1081) has connected to the Java server
+[16:00:12] [pool-6-thread-14/INFO]: Floodgate player who is logged in as .NAZAT1081 00000000-0000-0000-0009-01fc4ba2a7db joined
+[16:00:13] [Server thread/INFO]: .NAZAT1081[/100.66.11.26:0] logged in with entity id 62288 at (-3.8094673, 70.0, -10.699989988079071)
+[16:00:13] [Server thread/INFO]: Floodgate player logged in as .NAZAT1081 joined (UUID: 00000000-0000-0000-0009-01fc4ba2a7db)
+[16:00:13] [Server thread/INFO]: .NAZAT1081 joined the game
+[16:00:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2117ms or 42 ticks behind
+[16:00:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5392ms or 107 ticks behind
+[16:01:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[16:01:11] [Server thread/INFO]: <PrincParshia> kire bhai
+[16:01:18] [Server thread/INFO]: <PrincParshia> eto lag dile ami dragon marmu kamne
+[16:03:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[16:03:14] [Server thread/INFO]: <PrincParshia> bhaire bhai
+[16:03:17] [Server thread/INFO]: <PrincParshia> eto lagg
+[16:03:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[16:03:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3440ms or 68 ticks behind
+[16:03:55] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> ghumao
+[16:04:35] [Server thread/INFO]: <PrincParshia> nazat kick marmu?
+[16:04:38] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> bhai ghumaaa mormuuu
+[16:06:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[16:07:44] [Server thread/INFO]: PrincParshia has made the advancement [Eye Spy]
+[16:10:09] [Server thread/INFO]: <PrincParshia> elytra kar kar lagbo
+[16:13:08] [Geyser Fabric connection thread-6-16/INFO]: Floodgate player logged in as .NAZAT1081 disconnected
+[16:13:08] [GeyserServerChild-4-14/INFO]: NAZAT1081 has disconnected from the Java server because of Bedrock client timed out
+[16:13:08] [Server thread/INFO]: .NAZAT1081 lost connection: Disconnected
+[16:13:08] [Server thread/INFO]: .NAZAT1081 left the game
+[16:13:22] [Server thread/INFO]: PrincParshia has made the advancement [The End?]
+[16:13:23] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[16:13:23] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[16:13:24] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> ooooo
+[16:13:57] [Server thread/INFO]: <PrincParshia> shit
+[16:14:05] [Server thread/INFO]: <PrincParshia> i forgot to get obisidian
+[16:14:10] [Server thread/INFO]: <PrincParshia> obsidian*
+[16:15:07] [GeyserServerChild-4-16/INFO]: Player connected with username NAZAT1081 (944)
+[16:15:07] [localSession-7-16/INFO]: NAZAT1081 (logged in as: NAZAT1081) has connected to the Java server
+[16:15:08] [pool-6-thread-15/INFO]: Floodgate player who is logged in as .NAZAT1081 00000000-0000-0000-0009-01fc4ba2a7db joined
+[16:15:08] [Server thread/INFO]: .NAZAT1081[/100.66.11.26:0] logged in with entity id 70547 at (13.816306, 72.0, 15.917927)
+[16:15:08] [Server thread/INFO]: Floodgate player logged in as .NAZAT1081 joined (UUID: 00000000-0000-0000-0009-01fc4ba2a7db)
+[16:15:08] [Server thread/INFO]: .NAZAT1081 joined the game
+[16:15:36] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> nazat ghumaaa
+[16:15:53] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> bhaiiii ghumaaaa
+[16:16:08] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> bhaaiiiiiiiii
+[16:16:24] [Server thread/INFO]: <PrincParshia> dumbass
+[16:16:33] [Server thread/INFO]: [Not Secure] <.GalaxyHunter422> ghumaaaaaa
+[16:18:43] [Geyser Fabric connection thread-6-15/INFO]: Floodgate player logged in as .GalaxyHunter422 disconnected
+[16:18:43] [GeyserServerChild-4-15/INFO]: GalaxyHunter422 has disconnected from the Java server because of Bedrock client disconnected
+[16:18:43] [Server thread/INFO]: .GalaxyHunter422 lost connection: Disconnected
+[16:18:43] [Server thread/INFO]: .GalaxyHunter422 left the game
+[16:23:07] [GeyserServerChild-4-16/INFO]: NAZAT1081 has disconnected from the Java server because of Bedrock client timed out
+[16:23:07] [Geyser Fabric connection thread-6-17/INFO]: Floodgate player logged in as .NAZAT1081 disconnected
+[16:23:07] [Server thread/INFO]: .NAZAT1081 lost connection: Disconnected
+[16:23:07] [Server thread/INFO]: .NAZAT1081 left the game
+[16:24:42] [GeyserServerChild-4-17/INFO]: Player connected with username NAZAT1081 (944)
+[16:24:42] [localSession-7-17/INFO]: NAZAT1081 (logged in as: NAZAT1081) has connected to the Java server
+[16:24:42] [pool-6-thread-16/INFO]: Floodgate player who is logged in as .NAZAT1081 00000000-0000-0000-0009-01fc4ba2a7db joined
+[16:24:42] [Server thread/INFO]: .NAZAT1081[/100.66.11.26:0] logged in with entity id 73793 at (16.32288, 63.0, 53.441463)
+[16:24:42] [Server thread/INFO]: Floodgate player logged in as .NAZAT1081 joined (UUID: 00000000-0000-0000-0009-01fc4ba2a7db)
+[16:24:42] [Server thread/INFO]: .NAZAT1081 joined the game
+[16:28:00] [Geyser Fabric connection thread-6-18/INFO]: Floodgate player logged in as .NAZAT1081 disconnected
+[16:28:00] [GeyserServerChild-4-17/INFO]: NAZAT1081 has disconnected from the Java server because of Bedrock client timed out
+[16:28:00] [Server thread/INFO]: .NAZAT1081 lost connection: Disconnected
+[16:28:00] [Server thread/INFO]: .NAZAT1081 left the game
+[16:29:01] [Server thread/INFO]: PrincParshia lost connection: Disconnected
+[16:29:01] [Server thread/INFO]: PrincParshia left the game
+[16:30:01] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[16:30:05] [GeyserServerChild-4-18/INFO]: Player connected with username NAZAT1081 (944)
+[16:30:05] [localSession-7-18/INFO]: NAZAT1081 (logged in as: NAZAT1081) has connected to the Java server
+[16:30:06] [pool-6-thread-17/INFO]: Floodgate player who is logged in as .NAZAT1081 00000000-0000-0000-0009-01fc4ba2a7db joined
+[16:30:06] [Server thread/INFO]: .NAZAT1081[/100.66.11.26:0] logged in with entity id 74956 at (22.65465545654297, 63.16163635253906, 60.40888977050781)
+[16:30:06] [Server thread/INFO]: Floodgate player logged in as .NAZAT1081 joined (UUID: 00000000-0000-0000-0009-01fc4ba2a7db)
+[16:30:06] [Server thread/INFO]: .NAZAT1081 joined the game
+[16:31:22] [GeyserServerChild-4-18/INFO]: NAZAT1081 has disconnected from the Java server because of Bedrock client timed out
+[16:31:22] [Geyser Fabric connection thread-6-19/INFO]: Floodgate player logged in as .NAZAT1081 disconnected
+[16:31:22] [Server thread/INFO]: .NAZAT1081 lost connection: Disconnected
+[16:31:22] [Server thread/INFO]: .NAZAT1081 left the game
+[16:32:22] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[16:33:10] [GeyserServerChild-4-19/INFO]: Player connected with username NAZAT1081 (944)
+[16:33:10] [localSession-7-19/INFO]: NAZAT1081 (logged in as: NAZAT1081) has connected to the Java server
+[16:33:10] [pool-6-thread-18/INFO]: Floodgate player who is logged in as .NAZAT1081 00000000-0000-0000-0009-01fc4ba2a7db joined
+[16:33:10] [Server thread/INFO]: .NAZAT1081[/100.66.11.26:0] logged in with entity id 75410 at (18.30001001192093, 62.77667, 60.136597)
+[16:33:10] [Server thread/INFO]: Floodgate player logged in as .NAZAT1081 joined (UUID: 00000000-0000-0000-0009-01fc4ba2a7db)
+[16:33:10] [Server thread/INFO]: .NAZAT1081 joined the game
+[16:33:36] [Server thread/INFO]: Potata69 (/100.66.107.127:52640) lost connection: Disconnected
+[16:33:37] [GeyserServerChild-4-19/INFO]: NAZAT1081 has disconnected from the Java server because of Bedrock client timed out
+[16:33:37] [Geyser Fabric connection thread-6-20/INFO]: Floodgate player logged in as .NAZAT1081 disconnected
+[16:33:37] [Server thread/INFO]: .NAZAT1081 lost connection: Disconnected
+[16:33:37] [Server thread/INFO]: .NAZAT1081 left the game
+[16:34:37] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[16:34:41] [User Authenticator #10/INFO]: UUID of player PrincParshia is f05d43d8-36d0-446e-8b30-3f4573269fff
+[16:34:42] [Server thread/INFO]: PrincParshia[/127.0.0.1:49482] logged in with entity id 75838 at (-7.699999988079071, 60.0, -38.69999998807907)
+[16:34:42] [Server thread/INFO]: PrincParshia joined the game
+[16:36:24] [Server thread/INFO]: Potata69 (/100.66.107.127:52732) lost connection: Disconnected
+[16:36:27] [Server thread/INFO]: Potata69 (/100.66.107.127:52737) lost connection: Disconnected
+[16:36:45] [Server thread/INFO]: PrincParshia has made the advancement [Free the End]
+[16:36:49] [GeyserServerChild-4-20/INFO]: Player connected with username GalaxyHunter422 (944)
+[16:36:49] [localSession-7-20/INFO]: GalaxyHunter422 (logged in as: GalaxyHunter422) has connected to the Java server
+[16:36:50] [pool-6-thread-19/INFO]: Floodgate player who is logged in as .GalaxyHunter422 00000000-0000-0000-0009-01f0af524f52 joined
+[16:36:50] [Server thread/INFO]: .GalaxyHunter422[/100.84.225.26:0] logged in with entity id 76156 at (-1754.3673, 76.0, 264.41788)
+[16:36:50] [Server thread/INFO]: Floodgate player logged in as .GalaxyHunter422 joined (UUID: 00000000-0000-0000-0009-01f0af524f52)
+[16:36:50] [Server thread/INFO]: .GalaxyHunter422 joined the game
+[16:37:35] [Server thread/INFO]: <PrincParshia> weuuuuu
+[16:37:44] [Server thread/INFO]: <PrincParshia> marsi]w
+[16:38:30] [Server thread/INFO]: PrincParshia has reached the goal [The Next Generation]
+[16:38:30] [GeyserServerChild-4-21/INFO]: Player connected with username NAZAT1081 (944)
+[16:38:30] [localSession-7-21/INFO]: NAZAT1081 (logged in as: NAZAT1081) has connected to the Java server
+[16:38:30] [pool-6-thread-20/INFO]: Floodgate player who is logged in as .NAZAT1081 00000000-0000-0000-0009-01fc4ba2a7db joined
+[16:38:31] [Server thread/INFO]: .NAZAT1081[/100.124.218.119:0] logged in with entity id 77489 at (18.30001001192093, 62.77666, 60.136597)
+[16:38:31] [Server thread/INFO]: Floodgate player logged in as .NAZAT1081 joined (UUID: 00000000-0000-0000-0009-01fc4ba2a7db)
+[16:38:31] [Server thread/INFO]: .NAZAT1081 joined the game
+[16:38:35] [GeyserServerChild-4-20/INFO]: GalaxyHunter422 has disconnected from the Java server because of Bedrock client timed out
+[16:38:35] [Geyser Fabric connection thread-6-21/INFO]: Floodgate player logged in as .GalaxyHunter422 disconnected
+[16:38:35] [Server thread/INFO]: .GalaxyHunter422 lost connection: Disconnected
+[16:38:35] [Server thread/INFO]: .GalaxyHunter422 left the game
+[16:39:11] [GeyserServerChild-4-21/INFO]: NAZAT1081 has disconnected from the Java server because of Bedrock client timed out
+[16:39:11] [Geyser Fabric connection thread-6-22/INFO]: Floodgate player logged in as .NAZAT1081 disconnected
+[16:39:11] [Server thread/INFO]: .NAZAT1081 lost connection: Disconnected
+[16:39:11] [Server thread/INFO]: .NAZAT1081 left the game
+[16:40:38] [GeyserServerChild-4-22/INFO]: Player connected with username GalaxyHunter422 (944)
+[16:40:38] [localSession-7-22/INFO]: GalaxyHunter422 (logged in as: GalaxyHunter422) has connected to the Java server
+[16:40:39] [pool-6-thread-21/INFO]: Floodgate player who is logged in as .GalaxyHunter422 00000000-0000-0000-0009-01f0af524f52 joined
+[16:40:40] [Server thread/INFO]: .GalaxyHunter422[/100.84.225.26:0] logged in with entity id 78094 at (-1777.031, 79.42, 257.67105)
+[16:40:40] [Server thread/INFO]: Floodgate player logged in as .GalaxyHunter422 joined (UUID: 00000000-0000-0000-0009-01f0af524f52)
+[16:40:40] [Server thread/INFO]: .GalaxyHunter422 joined the game
+[16:40:53] [GeyserServerChild-4-23/INFO]: Player connected with username NAZAT1081 (944)
+[16:40:53] [localSession-7-23/INFO]: NAZAT1081 (logged in as: NAZAT1081) has connected to the Java server
+[16:40:54] [pool-6-thread-21/INFO]: Floodgate player who is logged in as .NAZAT1081 00000000-0000-0000-0009-01fc4ba2a7db joined
+[16:40:55] [Server thread/INFO]: .NAZAT1081[/100.124.218.119:0] logged in with entity id 78493 at (18.30001001192093, 62.77666, 60.136597)
+[16:40:55] [Server thread/INFO]: Floodgate player logged in as .NAZAT1081 joined (UUID: 00000000-0000-0000-0009-01fc4ba2a7db)
+[16:40:55] [Server thread/INFO]: .NAZAT1081 joined the game
+[16:41:01] [Server thread/INFO]: Potata69 (/100.66.107.127:59056) lost connection: Disconnected
+[16:41:09] [Server thread/INFO]: PrincParshia has made the advancement [Remote Getaway]
+[16:41:34] [GeyserServerChild-4-22/INFO]: GalaxyHunter422 has disconnected from the Java server because of Bedrock client timed out
+[16:41:34] [Geyser Fabric connection thread-6-23/INFO]: Floodgate player logged in as .GalaxyHunter422 disconnected
+[16:41:34] [Server thread/INFO]: .GalaxyHunter422 lost connection: Disconnected
+[16:41:34] [Server thread/INFO]: .GalaxyHunter422 left the game
+[16:44:25] [Server thread/INFO]: Potata69 (/100.66.107.127:61453) lost connection: Disconnected
+[16:45:25] [Server thread/WARN]: Oak Boat with Chest (vehicle of .NAZAT1081) moved too quickly! -0.0515594482421875,-0.026660919189453125,10.09619140625
+[16:45:25] [Server thread/WARN]: Oak Boat with Chest (vehicle of .NAZAT1081) moved too quickly! -0.05322265625,-0.027843475341796875,10.421875
+[16:45:25] [Server thread/WARN]: Oak Boat with Chest (vehicle of .NAZAT1081) moved too quickly! -0.0548858642578125,-0.026126861572265625,10.74755859375
+[16:46:33] [Server thread/INFO]: PrincParshia has made the advancement [The City at the End of the Game]
+[16:47:43] [Server thread/WARN]: Oak Boat with Chest (vehicle of .NAZAT1081) moved too quickly! 0.3765850067138672,0.013462066650390625,10.088623046875
+[16:47:48] [GeyserServerChild-4-26/INFO]: Player connected with username Mahdeh266 (944)
+[16:47:48] [localSession-7-24/INFO]: Mahdeh266 (logged in as: Mahdeh266) has connected to the Java server
+[16:47:48] [pool-6-thread-22/INFO]: Floodgate player who is logged in as .Mahdeh266 00000000-0000-0000-0009-01f4ef85ce55 joined
+[16:47:49] [Server thread/INFO]: .Mahdeh266[/100.77.253.114:0] logged in with entity id 83987 at (-848.4225, 66.0, 329.2793)
+[16:47:49] [Server thread/INFO]: Floodgate player logged in as .Mahdeh266 joined (UUID: 00000000-0000-0000-0009-01f4ef85ce55)
+[16:47:49] [Server thread/INFO]: .Mahdeh266 joined the game
+[16:48:03] [GeyserServerChild-4-26/INFO]: Mahdeh266 has disconnected from the Java server because of Bedrock client timed out
+[16:48:03] [Geyser Fabric connection thread-6-25/INFO]: Floodgate player logged in as .Mahdeh266 disconnected
+[16:48:03] [Server thread/INFO]: .Mahdeh266 lost connection: Disconnected
+[16:48:03] [Server thread/INFO]: .Mahdeh266 left the game
+[16:48:28] [GeyserServerChild-4-27/INFO]: Player connected with username Mahdeh266 (944)
+[16:48:28] [localSession-7-25/INFO]: Mahdeh266 (logged in as: Mahdeh266) has connected to the Java server
+[16:48:28] [pool-6-thread-22/INFO]: Floodgate player who is logged in as .Mahdeh266 00000000-0000-0000-0009-01f4ef85ce55 joined
+[16:48:29] [Server thread/INFO]: .Mahdeh266[/100.77.253.114:0] logged in with entity id 85244 at (-848.4225, 66.0, 329.2793)
+[16:48:29] [Server thread/INFO]: Floodgate player logged in as .Mahdeh266 joined (UUID: 00000000-0000-0000-0009-01f4ef85ce55)
+[16:48:29] [Server thread/INFO]: .Mahdeh266 joined the game
+[16:57:20] [Server thread/INFO]: <PrincParshia> weiii
+[16:57:21] [GeyserServerChild-4-23/INFO]: NAZAT1081 has disconnected from the Java server because of Bedrock client timed out
+[16:57:21] [Geyser Fabric connection thread-6-24/INFO]: Floodgate player logged in as .NAZAT1081 disconnected
+[16:57:21] [Server thread/INFO]: .NAZAT1081 lost connection: Disconnected
+[16:57:21] [Server thread/INFO]: .NAZAT1081 left the game
+[16:59:37] [GeyserServerChild-4-28/INFO]: Player connected with username NAZAT1081 (944)
+[16:59:37] [localSession-7-26/INFO]: NAZAT1081 (logged in as: NAZAT1081) has connected to the Java server
+[16:59:38] [pool-6-thread-23/INFO]: Floodgate player who is logged in as .NAZAT1081 00000000-0000-0000-0009-01fc4ba2a7db joined
+[16:59:38] [Server thread/INFO]: .NAZAT1081[/100.124.218.119:0] logged in with entity id 90420 at (-74.815605, 86.0, 1981.2737)
+[16:59:38] [Server thread/INFO]: Floodgate player logged in as .NAZAT1081 joined (UUID: 00000000-0000-0000-0009-01fc4ba2a7db)
+[16:59:38] [Server thread/INFO]: .NAZAT1081 joined the game
+[17:00:02] [GeyserServerChild-4-28/INFO]: NAZAT1081 has disconnected from the Java server because of Bedrock client timed out
+[17:00:02] [Geyser Fabric connection thread-6-27/INFO]: Floodgate player logged in as .NAZAT1081 disconnected
+[17:00:02] [Server thread/INFO]: .NAZAT1081 lost connection: Disconnected
+[17:00:02] [Server thread/INFO]: .NAZAT1081 left the game
+[17:03:05] [GeyserServerChild-4-29/INFO]: Player connected with username NAZAT1081 (944)
+[17:03:05] [localSession-7-27/INFO]: NAZAT1081 (logged in as: NAZAT1081) has connected to the Java server
+[17:03:05] [pool-6-thread-24/INFO]: Floodgate player who is logged in as .NAZAT1081 00000000-0000-0000-0009-01fc4ba2a7db joined
+[17:03:05] [Server thread/INFO]: .NAZAT1081[/100.124.218.119:0] logged in with entity id 91832 at (-74.815605, 86.0, 1981.2737)
+[17:03:05] [Server thread/INFO]: Floodgate player logged in as .NAZAT1081 joined (UUID: 00000000-0000-0000-0009-01fc4ba2a7db)
+[17:03:05] [Server thread/INFO]: .NAZAT1081 joined the game
+[17:03:17] [Server thread/INFO]: PrincParshia has made the advancement [Local Brewery]
+[17:03:20] [GeyserServerChild-4-29/INFO]: NAZAT1081 has disconnected from the Java server because of Bedrock client timed out
+[17:03:20] [Geyser Fabric connection thread-6-28/INFO]: Floodgate player logged in as .NAZAT1081 disconnected
+[17:03:20] [Server thread/INFO]: .NAZAT1081 lost connection: Disconnected
+[17:03:20] [Server thread/INFO]: .NAZAT1081 left the game
+[17:03:30] [Server thread/INFO]: PrincParshia has reached the goal [Sky's the Limit]
+[17:05:05] [Server thread/INFO]: PrincParshia fell from a high place
+[17:05:34] [GeyserServerChild-4-27/INFO]: Mahdeh266 has disconnected from the Java server because of Bedrock client timed out
+[17:05:34] [Geyser Fabric connection thread-6-26/INFO]: Floodgate player logged in as .Mahdeh266 disconnected
+[17:05:34] [Server thread/INFO]: .Mahdeh266 lost connection: Disconnected
+[17:05:34] [Server thread/INFO]: .Mahdeh266 left the game
+[17:05:39] [Server thread/INFO]: [PrincParshia: Set own game mode to Creative Mode]
+[17:07:37] [Server thread/INFO]: [PrincParshia: Teleported PrincParshia to -2167.500000, 81.731809, -951.500000]
+[17:07:49] [Server thread/INFO]: [PrincParshia: Set own game mode to Survival Mode]
+[17:13:06] [Server thread/INFO]: [PrincParshia: Teleported PrincParshia to -883.500000, 58.000000, -643.500000]
+[17:16:07] [Server thread/INFO]: [PrincParshia: Gave 1 [Elytra] to PrincParshia]
+[17:17:27] [Server thread/INFO]: [PrincParshia: Made PrincParshia no longer a server operator]
+[17:29:26] [Server thread/INFO]: Made PrincParshia a server operator
+[17:29:41] [Server thread/INFO]: [PrincParshia: Gave 70 experience points to PrincParshia]
+[17:29:47] [Server thread/INFO]: [PrincParshia: Gave 70 experience levels to PrincParshia]
+[17:29:52] [Server thread/INFO]: [PrincParshia: Made PrincParshia no longer a server operator]
+[17:34:23] [Server thread/INFO]: Made PrincParshia a server operator
+[17:34:33] [Server thread/INFO]: [PrincParshia: Gave 4 [Shulker Shell] to PrincParshia]
+[17:34:37] [Server thread/INFO]: [PrincParshia: Made PrincParshia no longer a server operator]
+[17:40:16] [Server thread/INFO]: PrincParshia lost connection: Disconnected
+[17:40:16] [Server thread/INFO]: PrincParshia left the game
+[17:40:44] [User Authenticator #11/INFO]: UUID of player PrincParshia is f05d43d8-36d0-446e-8b30-3f4573269fff
+[17:40:44] [Server thread/INFO]: PrincParshia[/127.0.0.1:58192] logged in with entity id 101557 at (-892.5950163613479, 66.0, 341.12325120917)
+[17:40:44] [Server thread/INFO]: PrincParshia joined the game
+[17:42:29] [Server thread/INFO]: PrincParshia lost connection: Disconnected
+[17:42:29] [Server thread/INFO]: PrincParshia left the game
+[17:43:07] [User Authenticator #12/INFO]: UUID of player PrincParshia is f05d43d8-36d0-446e-8b30-3f4573269fff
+[17:43:07] [Server thread/INFO]: PrincParshia[/127.0.0.1:56230] logged in with entity id 102130 at (-875.2293830605194, 66.0, 326.72374228305836)
+[17:43:07] [Server thread/INFO]: PrincParshia joined the game
+[17:46:20] [Server thread/INFO]: Made PrincParshia a server operator
+[17:46:30] [Server thread/INFO]: [PrincParshia: Gave 64 [Gunpowder] to PrincParshia]
+[17:46:34] [Server thread/INFO]: [PrincParshia: Gave 64 [Gunpowder] to PrincParshia]
+[17:47:18] [Server thread/INFO]: [PrincParshia: Gave 64 [Gunpowder] to PrincParshia]
+[17:47:20] [Server thread/INFO]: [PrincParshia: Gave 64 [Gunpowder] to PrincParshia]
+[17:57:08] [Server thread/INFO]: Villager class_1646['Nitwit'/107852, l='ServerLevel[world]', x=1160.29, y=70.00, z=1144.87] died, message: 'Nitwit was slain by PrincParshia'
+[17:58:57] [Server thread/INFO]: PrincParshia lost connection: Disconnected
+[17:58:57] [Server thread/INFO]: PrincParshia left the game
+[17:59:06] [Server thread/INFO]: Stopping the server
+[17:59:06] [Server thread/INFO]: Shutting down Geyser.
+[17:59:06] [Server thread/INFO]: Geyser shutdown successfully.
+[17:59:07] [WebSocketConnectReadThread-982/INFO]: The skin uploader has been closed
+[17:59:09] [Server thread/INFO]: Stopping server
+[17:59:09] [Server thread/INFO]: Saving players
+[17:59:09] [Server thread/INFO]: Saving worlds
+[17:59:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:59:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[17:59:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[17:59:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:59:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:59:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:59:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:59:09] [spark-monitoring-2-thread-1/INFO]: [STDERR]: Uncaught exception thrown in thread spark-monitoring-2-thread-1
+[17:59:09] [spark-monitoring-2-thread-1/INFO]: [STDERR]: java.util.concurrent.CancellationException
+[17:59:09] [spark-monitoring-2-thread-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:123)
+[17:59:09] [spark-monitoring-2-thread-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:193)
+[17:59:09] [spark-monitoring-2-thread-1/INFO]: [STDERR]: 	at knot//me.lucko.spark.common.util.SparkScheduledThreadPoolExecutor.afterExecute(SparkScheduledThreadPoolExecutor.java:48)
+[17:59:09] [spark-monitoring-2-thread-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1091)
+[17:59:09] [spark-monitoring-2-thread-1/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+[17:59:09] [spark-monitoring-2-thread-1/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:1474)
