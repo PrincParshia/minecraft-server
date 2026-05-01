@@ -29,7 +29,7 @@ bedrock:
 java:
   # What type of authentication Bedrock players will be checked against when logging into the Java server.
   # Can be "floodgate" (see https://wiki.geysermc.org/floodgate/), "online", or "offline".
-  auth-type: floodgate
+  auth-type: online
 
 # MOTD settings
 motd:
@@ -246,7 +246,7 @@ advanced:
 enable-metrics: true
 
 # The bstats metrics uuid. Do not touch!
-metrics-uuid: f4fc6c86-9897-4898-9704-efb2052ba5c9
+metrics-uuid: 67ee2af0-ff9e-4129-a704-bc0fc36e537e
 
 # If debug messages should be sent through console
 debug-mode: false
